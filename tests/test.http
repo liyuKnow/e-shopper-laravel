@@ -13,7 +13,6 @@ content-type:application/json
     "youtube_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et"
 }
 
-
 # GET ALL
 ###
 GET http://127.0.0.1:8000/api/business_banner
