@@ -1,0 +1,42 @@
+# CREATE
+###
+POST http://127.0.0.1:8000/api/business_banner HTTP/1.1
+content-type:application/json
+
+{
+    "phone_no" : "0912131415",
+    "email" : "www.some@email.com",
+    "facebook_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "telegram_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "linkedin_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "tiktok_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "youtube_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et"
+}
+
+
+# GET ALL
+###
+GET http://127.0.0.1:8000/api/business_banner
+
+# GET ONE
+###
+GET http://127.0.0.1:8000/api/business_banner/3
+
+# UPDATE
+###
+PUT http://127.0.0.1:8000/api/business_banner/3 HTTP/1.1
+content-type:application/json
+
+{
+    "phone_no" : "0912131415",
+    "email" : "www.webdev@gmail.com",
+    "facebook_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "telegram_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "linkedin_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "tiktok_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et",
+    "youtube_link" : "http://www.turcotte.com/eaque-reprehenderit-ut-iure-doloremque-et"
+}
+
+# DELETE
+###
+DELETE http://127.0.0.1:8000/api/business_banner/2
